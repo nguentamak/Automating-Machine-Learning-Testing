@@ -1,4 +1,8 @@
-numpy==1.26.4
-pandas
-deepchecks
-scikit-learn
+# Dépendances principales
+deepchecks==0.14.4        # ou la version que tu utilises
+numpy==1.26.4             # dernière version < 2.0 compatible avec np.Inf
+
+# Autres dépendances que tu utilises peut-être
+pandas>=1.3.0
+scikit-learn>=1.0
+matplotlib>=3.5
